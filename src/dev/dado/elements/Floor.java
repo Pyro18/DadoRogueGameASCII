@@ -18,7 +18,7 @@ public class Floor {
 
         assets = new ArrayList<ArrayList<Assets>>();
 
-        ArrayList<String> strs = ResponsabileRisorse.readFloorFile("./src/assets/floors" + floorNumber + ".txt");
+        ArrayList<String> strs = ResponsabileRisorse.readFloorFile("./src/assets/floors/floor" + floorNumber + ".txt");
 
         for (int i = 0; i < strs.size() - 1; i++) {
             char[] charray = strs.get(i).toCharArray();
